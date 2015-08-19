@@ -21,7 +21,7 @@ pro colrbar, xbar=xbar, ybar=ybar, position=position, $
     endif
   endif
 
-  if not noerase then erase
+  if ~noerase then erase
 
   x = position[[0, 2]]
   y = position[[1, 3]]
